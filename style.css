@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.mySlides {
+	display: none;
+}
+
+body {
+	
+	font-family: Verdana, sans-serif;
+}
+
+.head {
+   
+    text-align: center;
+	font-size: 30px;
+	color: #F98B88;
+	font-weight: bolder;
+  
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.data-container {
+	width: 600px;
+	height: 384px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.bar {
+	width: 28px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: rgb(0, 183, 255);
+	transition: 0.2s all ease;
+	border-radius: 5px;
+
+}
+
+.bar__id {
+	position: absolute;
+	top: -24px;
+	width: 100%;
+	text-align: center;
+	font-size: bold;
+
+}
+
+.btn1 {
+	padding: 12px;
+	font-weight: bolder;
+	background-color: #F98B88;
+	border-radius: 12px;
+	color: black;
+	font-size: 16px;
+    border-radius: 8px;
+
+	
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  
+}
+
+button {
+    padding: 12px;
+	font-weight: bolder;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+	background-color: #F98B88;
+	border-radius: 10px;
+	color: black
+    
+  }
+  
+button:hover {
+    background-color: white; /* Green */
+    
+}
+#ele{
+    text-align: center;
+    height: 35px;
+  }
